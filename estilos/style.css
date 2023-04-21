@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/archivo.webp);
+    background-size: cover;
+}
+header{
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 5px;
+}
+header nav{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+header nav a{
+    width: 120px;
+    display: block;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    transition: .5s;
+}
+header nav a:hover{
+    background-color: #000;
+    text-shadow: 0 0 5px #0ff, 0 0 25px #0ff,
+    0 0 50px #0ff,0 0 100px #0ff,0 0 200px #0ff;
+}
